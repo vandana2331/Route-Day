@@ -5,7 +5,21 @@ export default function Home() {
         <h1 className = "text-3xl font-bold mb-6"> 
           Route Day
           </h1>
-        <p> Smart scheduling for field workers</p>
+        <p className = "text-3xl font-bold mb-2"> Smart scheduling for field workers</p>
+        <label className = "text-gray-500 mb-2"> 
+          I am a ...
+        </label>
+
+        <select className = "border rounded-full p-2 w-full mb-5">
+
+          <option> Worker</option>
+          <option> Customer</option>
+
+        </select>
+
+        <label className = "block mb-2 font-medium"> 
+          Name
+        </label>
 
         <input
           type = "text"
